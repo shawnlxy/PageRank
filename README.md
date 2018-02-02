@@ -1,5 +1,10 @@
 # PageRank
 
+* Implements Google’s PageRank algorithm with Hadoop MapReduce.
+* Constructs Relation Matrix based on Transition Matrix to calculate websites’ PageRank.
+* Rank websites according to the convergence values of PageRank.
+* Data Source: http://www.limfinity.com/ir/
+
 ## Prerequisites 
 
 * [Docker](https://docs.docker.com/) - Container
