@@ -43,7 +43,7 @@ HDFS operations:
 cd PageRank/src/main/java/
 hdfs dfs -rm -r /transition 
 
-hdfs dfs -mkdir /transition # 在hdfs中创建 /transition目录
+hdfs dfs -mkdir /transition 
 
 hdfs dfs -put transitionsmall.txt /transition 
 
